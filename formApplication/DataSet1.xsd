@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SendFeeds" msprop:Generator_RowClassName="SendFeedsRow" msprop:Generator_RowEvHandlerName="SendFeedsRowChangeEventHandler" msprop:Generator_RowDeletedName="SendFeedsRowDeleted" msprop:Generator_RowDeletingName="SendFeedsRowDeleting" msprop:Generator_RowEvArgName="SendFeedsRowChangeEvent" msprop:Generator_TablePropName="SendFeeds" msprop:Generator_RowChangedName="SendFeedsRowChanged" msprop:Generator_UserTableName="SendFeeds" msprop:Generator_RowChangingName="SendFeedsRowChanging" msprop:Generator_TableClassName="SendFeedsDataTable" msprop:Generator_TableVarName="tableSendFeeds">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="stationType" msprop:Generator_UserColumnName="stationType" msprop:Generator_ColumnPropNameInTable="stationTypeColumn" msprop:Generator_ColumnPropNameInRow="stationType" msprop:Generator_ColumnVarNameInTable="columnstationType" type="xs:string" minOccurs="0" />
+              <xs:element name="stationName" msprop:Generator_UserColumnName="stationName" msprop:Generator_ColumnPropNameInTable="stationNameColumn" msprop:Generator_ColumnPropNameInRow="stationName" msprop:Generator_ColumnVarNameInTable="columnstationName" type="xs:string" minOccurs="0" />
+              <xs:element name="producedFeed" msprop:Generator_UserColumnName="producedFeed" msprop:Generator_ColumnPropNameInTable="producedFeedColumn" msprop:Generator_ColumnPropNameInRow="producedFeed" msprop:Generator_ColumnVarNameInTable="columnproducedFeed" type="xs:string" minOccurs="0" />
+              <xs:element name="unit" msprop:Generator_UserColumnName="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnVarNameInTable="columnunit" type="xs:string" minOccurs="0" />
+              <xs:element name="quantity" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="soledFeedsDaily" msprop:Generator_RowClassName="soledFeedsDailyRow" msprop:Generator_RowEvHandlerName="soledFeedsDailyRowChangeEventHandler" msprop:Generator_RowDeletedName="soledFeedsDailyRowDeleted" msprop:Generator_RowDeletingName="soledFeedsDailyRowDeleting" msprop:Generator_RowEvArgName="soledFeedsDailyRowChangeEvent" msprop:Generator_TablePropName="soledFeedsDaily" msprop:Generator_RowChangedName="soledFeedsDailyRowChanged" msprop:Generator_UserTableName="soledFeedsDaily" msprop:Generator_RowChangingName="soledFeedsDailyRowChanging" msprop:Generator_TableClassName="soledFeedsDailyDataTable" msprop:Generator_TableVarName="tablesoledFeedsDaily">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="feedName" msdata:Caption="stationType" msprop:Generator_UserColumnName="feedName" msprop:Generator_ColumnPropNameInTable="feedNameColumn" msprop:Generator_ColumnPropNameInRow="feedName" msprop:Generator_ColumnVarNameInTable="columnfeedName" type="xs:string" minOccurs="0" />
+              <xs:element name="unit" msdata:Caption="stationName" msprop:Generator_UserColumnName="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnVarNameInTable="columnunit" type="xs:string" minOccurs="0" />
+              <xs:element name="quantity" msdata:Caption="producedFeed" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" type="xs:int" minOccurs="0" />
+              <xs:element name="seller" msdata:Caption="unit" msprop:Generator_UserColumnName="seller" msprop:Generator_ColumnPropNameInTable="sellerColumn" msprop:Generator_ColumnPropNameInRow="seller" msprop:Generator_ColumnVarNameInTable="columnseller" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SoledRaws" msprop:Generator_RowClassName="SoledRawsRow" msprop:Generator_RowEvHandlerName="SoledRawsRowChangeEventHandler" msprop:Generator_RowDeletedName="SoledRawsRowDeleted" msprop:Generator_RowDeletingName="SoledRawsRowDeleting" msprop:Generator_RowEvArgName="SoledRawsRowChangeEvent" msprop:Generator_TablePropName="SoledRaws" msprop:Generator_RowChangedName="SoledRawsRowChanged" msprop:Generator_UserTableName="SoledRaws" msprop:Generator_RowChangingName="SoledRawsRowChanging" msprop:Generator_TableClassName="SoledRawsDataTable" msprop:Generator_TableVarName="tableSoledRaws">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="rawName" msdata:Caption="stationType" msprop:Generator_UserColumnName="rawName" msprop:Generator_ColumnPropNameInTable="rawNameColumn" msprop:Generator_ColumnPropNameInRow="rawName" msprop:Generator_ColumnVarNameInTable="columnrawName" type="xs:string" minOccurs="0" />
+              <xs:element name="unit" msdata:Caption="stationName" msprop:Generator_UserColumnName="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnVarNameInTable="columnunit" type="xs:string" minOccurs="0" />
+              <xs:element name="quantity" msdata:Caption="producedFeed" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" type="xs:int" minOccurs="0" />
+              <xs:element name="price" msdata:Caption="unit" msprop:Generator_UserColumnName="price" msprop:Generator_ColumnPropNameInTable="priceColumn" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnVarNameInTable="columnprice" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UsedRaws" msprop:Generator_RowClassName="UsedRawsRow" msprop:Generator_RowEvHandlerName="UsedRawsRowChangeEventHandler" msprop:Generator_RowDeletedName="UsedRawsRowDeleted" msprop:Generator_RowDeletingName="UsedRawsRowDeleting" msprop:Generator_RowEvArgName="UsedRawsRowChangeEvent" msprop:Generator_TablePropName="UsedRaws" msprop:Generator_RowChangedName="UsedRawsRowChanged" msprop:Generator_UserTableName="UsedRaws" msprop:Generator_RowChangingName="UsedRawsRowChanging" msprop:Generator_TableClassName="UsedRawsDataTable" msprop:Generator_TableVarName="tableUsedRaws">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="rawName" msdata:Caption="stationType" msprop:Generator_UserColumnName="rawName" msprop:Generator_ColumnPropNameInTable="rawNameColumn" msprop:Generator_ColumnPropNameInRow="rawName" msprop:Generator_ColumnVarNameInTable="columnrawName" type="xs:string" minOccurs="0" />
+              <xs:element name="rawQuantity" msdata:Caption="stationName" msprop:Generator_UserColumnName="rawQuantity" msprop:Generator_ColumnPropNameInTable="rawQuantityColumn" msprop:Generator_ColumnPropNameInRow="rawQuantity" msprop:Generator_ColumnVarNameInTable="columnrawQuantity" type="xs:int" minOccurs="0" />
+              <xs:element name="rawUnit" msdata:Caption="producedFeed" msprop:Generator_UserColumnName="rawUnit" msprop:Generator_ColumnPropNameInTable="rawUnitColumn" msprop:Generator_ColumnPropNameInRow="rawUnit" msprop:Generator_ColumnVarNameInTable="columnrawUnit" type="xs:string" minOccurs="0" />
+              <xs:element name="producedFeed" msdata:Caption="unit" msprop:Generator_UserColumnName="producedFeed" msprop:Generator_ColumnPropNameInTable="producedFeedColumn" msprop:Generator_ColumnPropNameInRow="producedFeed" msprop:Generator_ColumnVarNameInTable="columnproducedFeed" type="xs:string" minOccurs="0" />
+              <xs:element name="feedQuantity" msprop:Generator_UserColumnName="feedQuantity" msprop:Generator_ColumnPropNameInTable="feedQuantityColumn" msprop:Generator_ColumnPropNameInRow="feedQuantity" msprop:Generator_ColumnVarNameInTable="columnfeedQuantity" type="xs:int" minOccurs="0" />
+              <xs:element name="feedUnit" msprop:Generator_UserColumnName="feedUnit" msprop:Generator_ColumnPropNameInTable="feedUnitColumn" msprop:Generator_ColumnPropNameInRow="feedUnit" msprop:Generator_ColumnVarNameInTable="columnfeedUnit" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ProducedFeeds" msprop:Generator_RowClassName="ProducedFeedsRow" msprop:Generator_RowEvHandlerName="ProducedFeedsRowChangeEventHandler" msprop:Generator_RowDeletedName="ProducedFeedsRowDeleted" msprop:Generator_RowDeletingName="ProducedFeedsRowDeleting" msprop:Generator_RowEvArgName="ProducedFeedsRowChangeEvent" msprop:Generator_TablePropName="ProducedFeeds" msprop:Generator_RowChangedName="ProducedFeedsRowChanged" msprop:Generator_UserTableName="ProducedFeeds" msprop:Generator_RowChangingName="ProducedFeedsRowChanging" msprop:Generator_TableClassName="ProducedFeedsDataTable" msprop:Generator_TableVarName="tableProducedFeeds">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="produceFeed" msdata:Caption="stationType" msprop:Generator_UserColumnName="produceFeed" msprop:Generator_ColumnPropNameInTable="produceFeedColumn" msprop:Generator_ColumnPropNameInRow="produceFeed" msprop:Generator_ColumnVarNameInTable="columnproduceFeed" type="xs:string" minOccurs="0" />
+              <xs:element name="quantity" msdata:Caption="stationName" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" type="xs:int" minOccurs="0" />
+              <xs:element name="unit" msdata:Caption="producedFeed" msprop:Generator_UserColumnName="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnVarNameInTable="columnunit" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rawsStore" msprop:Generator_RowClassName="rawsStoreRow" msprop:Generator_RowEvHandlerName="rawsStoreRowChangeEventHandler" msprop:Generator_RowDeletedName="rawsStoreRowDeleted" msprop:Generator_RowDeletingName="rawsStoreRowDeleting" msprop:Generator_RowEvArgName="rawsStoreRowChangeEvent" msprop:Generator_TablePropName="rawsStore" msprop:Generator_RowChangedName="rawsStoreRowChanged" msprop:Generator_UserTableName="rawsStore" msprop:Generator_RowChangingName="rawsStoreRowChanging" msprop:Generator_TableClassName="rawsStoreDataTable" msprop:Generator_TableVarName="tablerawsStore">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lastUpdate" msdata:Caption="stationType" msprop:Generator_UserColumnName="lastUpdate" msprop:Generator_ColumnPropNameInTable="lastUpdateColumn" msprop:Generator_ColumnPropNameInRow="lastUpdate" msprop:Generator_ColumnVarNameInTable="columnlastUpdate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="rawName" msdata:Caption="stationName" msprop:Generator_UserColumnName="rawName" msprop:Generator_ColumnPropNameInTable="rawNameColumn" msprop:Generator_ColumnPropNameInRow="rawName" msprop:Generator_ColumnVarNameInTable="columnrawName" type="xs:string" minOccurs="0" />
+              <xs:element name="quantity" msdata:Caption="producedFeed" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" type="xs:int" minOccurs="0" />
+              <xs:element name="unit" msprop:Generator_UserColumnName="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnVarNameInTable="columnunit" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="feedStore" msprop:Generator_RowClassName="feedStoreRow" msprop:Generator_RowEvHandlerName="feedStoreRowChangeEventHandler" msprop:Generator_RowDeletedName="feedStoreRowDeleted" msprop:Generator_RowDeletingName="feedStoreRowDeleting" msprop:Generator_RowEvArgName="feedStoreRowChangeEvent" msprop:Generator_TablePropName="feedStore" msprop:Generator_RowChangedName="feedStoreRowChanged" msprop:Generator_UserTableName="feedStore" msprop:Generator_RowChangingName="feedStoreRowChanging" msprop:Generator_TableClassName="feedStoreDataTable" msprop:Generator_TableVarName="tablefeedStore">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lastUpdate" msdata:Caption="stationType" msprop:Generator_UserColumnName="lastUpdate" msprop:Generator_ColumnPropNameInTable="lastUpdateColumn" msprop:Generator_ColumnPropNameInRow="lastUpdate" msprop:Generator_ColumnVarNameInTable="columnlastUpdate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="producedFeed" msdata:Caption="stationName" msprop:Generator_UserColumnName="producedFeed" msprop:Generator_ColumnPropNameInTable="producedFeedColumn" msprop:Generator_ColumnPropNameInRow="producedFeed" msprop:Generator_ColumnVarNameInTable="columnproducedFeed" type="xs:string" minOccurs="0" />
+              <xs:element name="quantity" msdata:Caption="producedFeed" msprop:Generator_UserColumnName="quantity" msprop:Generator_ColumnPropNameInTable="quantityColumn" msprop:Generator_ColumnPropNameInRow="quantity" msprop:Generator_ColumnVarNameInTable="columnquantity" type="xs:int" minOccurs="0" />
+              <xs:element name="unit" msprop:Generator_UserColumnName="unit" msprop:Generator_ColumnPropNameInTable="unitColumn" msprop:Generator_ColumnPropNameInRow="unit" msprop:Generator_ColumnVarNameInTable="columnunit" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
